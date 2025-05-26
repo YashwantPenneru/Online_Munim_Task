@@ -1,0 +1,140 @@
+.btn-series:hover {
+    background-color: #e9ecef;
+}
+
+.btn-series.active {
+    background-color: #bbc7e9;
+    color: white;
+    border-radius: 20%;
+    border: none;
+    color: blue;
+    margin-right: 5px;
+}
+
+/* Responsive Css */
+/* Extra small devices (phones, <576px) */
+@media (max-width: 575.98px) {
+  .chart-controls h4 {
+    font-size: 1.1rem;
+    margin-left: 1rem;
+  }
+
+  .btn-series {
+    padding: 0.25rem 0.5rem;
+    font-size: 0.8rem;
+  }
+
+  .table thead {
+    display: none;
+  }
+
+  .table tbody tr {
+    display: block;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    padding: 1rem;
+  }
+
+  .table tbody td {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.9rem;
+    padding: 0.3rem 0;
+  }
+
+  .d-flex {
+    flex-direction: column;
+  }
+
+  .col-md-3, .col-md-9 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .ms-2, .ms-3, .me-2, .me-3 {
+    margin-left: 0.5rem !important;
+    margin-right: 0.5rem !important;
+  }
+
+  .ps-3, .pe-3 {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
+
+  .chart-container {
+    overflow-x: auto;
+  }
+}
+
+/* Small devices (landscape phones, ≥576px and <768px) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .col-md-3, .col-md-9 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .btn-series {
+    padding: 0.4rem 0.8rem;
+    font-size: 0.85rem;
+  }
+
+  .table thead {
+    display: none;
+  }
+
+  .table tbody tr {
+    display: block;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    padding: 1rem;
+  }
+
+  .table tbody td {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.95rem;
+    padding: 0.3rem 0;
+  }
+}
+
+/* Medium devices (tablets, ≥768px and <992px) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .col-md-3, .col-md-9 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .table thead {
+    font-size: 0.85rem;
+  }
+
+  .table tbody td {
+    font-size: 0.9rem;
+  }
+
+  .btn-series {
+    font-size: 0.9rem;
+  }
+
+  .chart-controls h4 {
+    font-size: 1.3rem;
+  }
+}
+
+/* Large devices (desktops, ≥992px and <1200px) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .table thead th {
+    font-size: 0.9rem;
+  }
+
+  .table tbody td {
+    font-size: 0.95rem;
+  }
+
+  .btn-series {
+    font-size: 0.95rem;
+  }
+}
+
+@media (min-width: 1200px) {
+}

@@ -1,0 +1,42 @@
+<div class="" style="border-right: 1px solid lightgrey; height: 50rem;">
+    <div class="text-start">
+        <img src="online_munim_logo.png" class="img-fluid " alt="">
+    </div>
+    <ul class="navbar-nav">
+        <li class="nav-item">
+            <a class="nav-link text-dark" routerLink="/dashboard" routerLinkActive="active" [class.active]="isActive('dashboard')">
+                <i class="fa-solid fa-house fa-sm ms-2 me-3"></i>Dashboard
+            </a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link text-dark" routerLink="stock" routerLinkActive="active" [class.active]="isActive('stock')">
+                <i class="fa-solid fa-cube fa-sm ms-2 me-3"></i>Stock
+            </a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link text-dark" routerLink="report" routerLinkActive="active"  [class.active]="isActive('report')">
+                <i class="fa-regular fa-file-lines fa-sm ms-2 me-3"></i>Report
+            </a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link text-dark" routerLink="orders" routerLinkActive="active"  [class.active]="isActive('orders')"><i
+                    class="fa-solid fa-bag-shopping fa-sm ms-2 me-3"></i>Orders</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link text-dark" routerLink="customers" routerLinkActive="active"  [class.active]="isActive('customers')"><i
+                    class="fa-solid fa-user fa-sm ms-2 me-3"></i>Customers</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link text-dark" routerLink="loans" routerLinkActive="active"  [class.active]="isActive('loans')"><i
+                    class="fa-solid fa-wallet fa-sm ms-2 me-3"></i>Loans</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link text-dark" routerLink="expenses" routerLinkActive="active"  [class.active]="isActive('expenses')"><i
+                    class="fa-solid fa-chart-simple fa-sm ms-2 me-3"></i>Expenses</a>
+        </li>
+        <li class="nav-item mb-5">
+            <a class="nav-link text-dark" routerLink="settings" routerLinkActive="active"  [class.active]="isActive('settings')"><i
+                    class="fa-solid fa-gear fa-sm ms-2 me-3"></i>Settings</a>
+        </li>
+    </ul>
+</div>

@@ -1,0 +1,6 @@
+.nav-item .nav-link.active {
+    background-color: rgb(174, 194, 220); 
+    color: #0033cc !important;
+    border-radius: 5%; 
+    width: 70%;
+}
